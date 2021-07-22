@@ -1,0 +1,33 @@
+html {
+  font-family: Georgia, serif;
+  color: #fff;
+}
+
+.background {
+  background-color: rgba(73, 85, 98, .9);
+}
+
+.border-gray {
+  border-color: #97a49b;
+  color: #fff;
+  font-weight: bold;
+}
+
+.max-height {
+  max-height: 500px;
+}
+
+@media only screen and (min-width:960px) {
+
+  header {
+    position: relative;
+  }
+
+  .absolute {
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
+    background-color: inherit;
+  }
+
+}
